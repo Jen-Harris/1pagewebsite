@@ -1,7 +1,5 @@
 body {
-  margin: 0;
-  padding: 0;
-  background-color: transparent !important;
+  background-color: FloralWhite !important;
   font-family: "Open Sans" !important;
 }
 
@@ -37,26 +35,97 @@ p {
   margin: 0 auto !important;
 }
 
-.love-icon{
+.love-icon {
   font-size: 60px;
   margin: 0 auto;
   width: 15%;
 }
 
-.love-text{
+.love-text {
   margin: 0 40px;
 }
 
-html {
-  background: rgba(255,255,255,0.5) url(https://i.imgur.com/KBV1pgb.jpg) no-repeat center center fixed;
- -webkit-background-size: cover;
- -moz-background-size: cover;
- -o-background-size: cover;
- background-size: cover;
+.mainPicture {
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  background-image: url(https://i.imgur.com/KBV1pgb.jpg);
+  height: 700px;
+  clear: both;
+  border-bottom: .6em solid #fff;
+}
+
+.no-padding {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 
 .image-text {
   position: absolute;
   bottom: 10px;
   left: 10px;
+}
+
+.text-column1 {
+  height: 761px;
+  width: 50%;
+  display: block;
+  background-color: DodgerBlue;
+}
+
+.image-column1 {
+  position: relative;
+  padding-bottom: 59.5%;
+  background-size: cover;
+  box-sizing: border-box;
+  border-bottom: .6em solid #fff;
+  background-image: url(https://i.imgur.com/wZFQNiD.jpg);
+  width: 50%;
+  float: left;
+  display: block;
+}
+
+.text-column2 {
+  height: 762px;
+  width: 50%;
+  display: block;
+  background-color: pink;
+}
+
+.image-column2 {
+    position: relative;
+    padding-bottom: 59.5%;
+    background-size: cover;
+    box-sizing: border-box;
+    border-bottom: .6em solid #fff;
+    background-image: url(https://i.imgur.com/J3Afx4m.jpg);
+    width: 50%;
+    float: left;
+    display: block;
+}
+
+.text-column3 {
+  height: 762px;
+  width: 50%;
+  display: block;
+  background-color: Teal;
+}
+
+.image-column3 {
+  position: relative;
+  padding-bottom: 59.5%;
+  background-size: cover;
+  box-sizing: border-box;
+  border-bottom: .6em solid #fff;
+  background-image: url(https://cdn2.tnwcdn.com/wp-content/blogs.dir/1/files/2015/06/coding.jpg);
+  width: 50%;
+  float: left;
+  display: block;
+}
+
+.big-icon {
+  font-size: 100px;
+  margin: 0 auto;
+  width: 25%;
+  color: FloralWhite;
 }

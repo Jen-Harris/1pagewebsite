@@ -71,16 +71,19 @@ p {
   width: 50%;
   display: block;
   background-color: DodgerBlue;
+  padding-bottom: 59.5%;
+  border-bottom: .6em solid #fff;
 }
 
 .image-column1 {
+  height: 762px;
   position: relative;
   padding-bottom: 59.5%;
   background-size: cover;
-  box-sizing: border-box;
   border-bottom: .6em solid #fff;
   background-image: url(https://i.imgur.com/wZFQNiD.jpg);
   width: 50%;
+  height: 762px;
   float: left;
   display: block;
 }
@@ -90,13 +93,15 @@ p {
   width: 50%;
   display: block;
   background-color: pink;
+  padding-bottom: 59.5%;
+  border-bottom: .6em solid #fff;
 }
 
 .image-column2 {
+    height: 762px;
     position: relative;
     padding-bottom: 59.5%;
     background-size: cover;
-    box-sizing: border-box;
     border-bottom: .6em solid #fff;
     background-image: url(https://i.imgur.com/J3Afx4m.jpg);
     width: 50%;
@@ -109,18 +114,20 @@ p {
   width: 50%;
   display: block;
   background-color: Teal;
+  padding-bottom: 59.5%;
+  border-bottom: .6em solid #fff;
 }
 
 .image-column3 {
+  height: 762px;
   position: relative;
-  padding-bottom: 59.5%;
   background-size: cover;
-  box-sizing: border-box;
-  border-bottom: .6em solid #fff;
   background-image: url(https://cdn2.tnwcdn.com/wp-content/blogs.dir/1/files/2015/06/coding.jpg);
   width: 50%;
   float: left;
   display: block;
+  padding-bottom: 59.5%;
+  border-bottom: .6em solid #fff;
 }
 
 .big-icon {
@@ -128,4 +135,43 @@ p {
   margin: 0 auto;
   width: 25%;
   color: FloralWhite;
+}
+
+.image-column4 {
+  height: 762px;
+  position: relative;
+  padding-bottom: 59.5%;
+  background-size: cover;
+  border-bottom: .6em solid #fff;
+  background-image: url(https://i.imgur.com/lWmymdq.jpg);
+  width: 50%;
+  height: 762px;
+  float: left;
+  display: block;
+}
+
+.image-column5 {
+  height: 762px;
+  position: relative;
+  padding-bottom: 59.5%;
+  background-size: cover;
+  border-bottom: .6em solid #fff;
+  background-image: url(https://i.imgur.com/kytBtln.jpg);
+  width: 50%;
+  height: 762px;
+  float: left;
+  display: block;
+}
+
+.image-column6 {
+  height: 762px;
+  position: relative;
+  padding-bottom: 59.5%;
+  background-size: cover;
+  border-bottom: .6em solid #fff;
+  background-image: url(https://i.imgur.com/3swB4BX.jpg);
+  width: 50%;
+  height: 762px;
+  float: left;
+  display: block;
 }
